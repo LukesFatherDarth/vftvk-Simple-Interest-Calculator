@@ -23,7 +23,7 @@ function updateRate()
 function checkPositiveNumber() 
 {
     var amount = document.getElementById("principal").value;
-    if (amount < 0)
+    if (amount <= 0)
     {
     	alert("Enter a positive number")
     }
